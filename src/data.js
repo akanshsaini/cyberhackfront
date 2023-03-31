@@ -106,7 +106,7 @@ const data = [
   },
 ];
 
-const startTime = new Date('March 31 2023 23:50').getTime();
+const startTime = new Date('April 1 2023 11:00').getTime();
 const questionTime = 10;
 const numberOfQuestions = 15;
 
