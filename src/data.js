@@ -57,7 +57,7 @@ const data = [
   },
 ];
 
-const startTime = new Date('March 31 2023 10:21').getTime();
+const startTime = new Date('March 31 2023 12:03').getTime();
 const questionTime = 10;
 const numberOfQuestions = 8;
 
