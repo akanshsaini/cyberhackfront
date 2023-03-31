@@ -4,7 +4,7 @@ import classes from './Rank.module.css';
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 
 const Rank = () => {
-  const url = 'http://127.0.0.1:8080/api/v1/team/rank';
+  const url = 'http://cyberhackayf.xyz/api/v1/team/rank';
   const [rank, setRank] = useState('_');
 
   useEffect(() => {
