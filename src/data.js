@@ -106,8 +106,8 @@ const data = [
   },
 ];
 
-const startTime = new Date('April 1 2023 11:00').getTime();
-const questionTime = 10;
+const startTime = new Date('April 1 2023 02:53').getTime();
+const questionTime = 1;
 const numberOfQuestions = 15;
 
 export default data;
