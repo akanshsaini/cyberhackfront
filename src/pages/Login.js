@@ -46,7 +46,7 @@ const Login = () => {
     axios
       .post(`${baseURL}/login`, data)
       .then((response) => {
-        localStorage.setItem('auth-token', response.data);
+        localStorage.setItem('auth-token', JSON.stringify(response.data));
         navigate('/game');
         setIsAuthenticating(false);
       })
