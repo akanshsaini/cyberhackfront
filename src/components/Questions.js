@@ -14,11 +14,19 @@ import zip5 from '../zip_files/zip5.zip';
 import zip6 from '../zip_files/zip6.zip';
 import zip7 from '../zip_files/zip7.zip';
 import zip8 from '../zip_files/zip8.zip';
+import zipA from '../zip_files/zipA.zip';
+import zipB from '../zip_files/zipB.zip';
+import zipC from '../zip_files/zipC.zip';
+import zipD from '../zip_files/zipD.zip';
+import zipE from '../zip_files/zipE.zip';
+import zipF from '../zip_files/zipF.zip';
+import zipG from '../zip_files/zipG.zip';
+
 
 const { Panel } = Collapse;
 
 const Questions = (props) => {
-  const zips = [zip1, zip2, zip3, zip4, zip5, zip6, zip7, zip8];
+  const zips = [zip1, zip2, zip3, zip4, zip5, zip6, zip7, zip8,zipA, zipB, zipC, zipD, zipE, zipF, zipG];
 
   return (
     <Collapse
