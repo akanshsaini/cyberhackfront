@@ -30,7 +30,7 @@ const Login = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-
+    
     const data = {
       teamName: emailInputRef.current.value,
       password: passwordInputRef.current.value,

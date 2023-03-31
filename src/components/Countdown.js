@@ -9,7 +9,7 @@ const Countdown = () => {
     const distance = startTime - now;
     const ended = distance + questionTime * numberOfQuestions * 60 * 1000;
 
-    console.log(ended);
+    // console.log(ended);
 
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor(

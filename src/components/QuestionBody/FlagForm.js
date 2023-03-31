@@ -36,7 +36,7 @@ const FlagForm = (props) => {
     setOpen(false);
 
     const authtoken = localStorage.getItem('auth-token');
-
+    console.log(authtoken)
     axios
       .post(
         url,
