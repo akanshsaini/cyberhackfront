@@ -12,7 +12,7 @@ import Collapse from '@mui/material/Collapse';
 
 const FlagForm = (props) => {
   const flagInputRef = useRef();
-  const url = 'http://cyberhackayf.xyz/api/v1/team/submit';
+  const url = 'https://cyberhackayf.xyz/api/v1/team/submit';
   const [submitting, setSubmitting] = useState(false);
   const [open, setOpen] = useState(false);
   const [error, setError] = useState('');

@@ -24,7 +24,7 @@ const Login = () => {
   const [isEnabled, setIsEnabled] = useState(false);
 
   const navigate = useNavigate();
-  const baseURL = 'http://cyberhackayf.xyz/api/v1/team';
+  const baseURL = 'https://cyberhackayf.xyz/api/v1/team';
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
   const dispatch = useDispatch();
 
