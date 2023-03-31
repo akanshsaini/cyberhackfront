@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://cyberhackayf.xyz/api/v1/",
+  baseURL: "https://cyberhackback.akanshsaini.repl.co/api/v1/",
 });
 // const api = axios.create({
 //   baseURL: "http://localhost:8080/api",
