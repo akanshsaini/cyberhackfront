@@ -47,7 +47,7 @@ const Login = () => {
       .post(`${baseURL}/login`, data)
       .then((response) => {
         console.log(response);
-        localStorage.setItem('auth-token', JSON.stringify(response.data));
+        localStorage.setItem('auth-token', response.data["auth-token"]);
         navigate('/game');
         setIsAuthenticating(false);
       })
