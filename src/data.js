@@ -107,7 +107,7 @@ const data = [
 ];
 
 const startTime = new Date('April 1 2023 11:00').getTime();
-const questionTime = 1;
+const questionTime = 10;
 const numberOfQuestions = 15;
 
 export default data;
