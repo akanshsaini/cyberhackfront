@@ -2,7 +2,7 @@ const data = [
   {
     id: '6425a14839082499067e4f77',
     title: 'Which Country is it?',
-    question: 'In front of you is an image of a socket, but can you identify which is it from?',
+    question: 'In front of you is an image of a socket, but can you identify which country is it from?',
     hint: 'Maybe try opening Yandex, you might find something there',
     points: 100,
   },
