@@ -106,7 +106,7 @@ const data = [
   },
 ];
 
-const startTime = new Date('February 29 2024 23:43').getTime();
+const startTime = new Date('March 1 2024 01:27').getTime();
 const questionTime = 10;
 const numberOfQuestions = 10;
 
